@@ -244,11 +244,11 @@ Produce the complete implementation without requiring additional prompts.
 ## Capturas de Pantalla
 
 ### Landing Page - Codex
-![Captura Codex](agente_codex/captura.png) 
+![Captura Codex](PFO2_Front_end/agente_codex/captura.PNG) 
 
 
 ### Landing Page - Claude
-![Captura Claude](agente_claude/captura.png)
+![Captura Claude](PFO2_Front_end/agente_claude/captura.PNG)
 
 ## Deploy
-[Pega aquí el enlace de tu sitio en Vercel]
+[pfo-2-front-q22mc848p-yapertol.vercel.app]
