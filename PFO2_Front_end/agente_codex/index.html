@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NovaSoft Solutions builds modern web, mobile, cloud, AI, API, and consulting solutions for startups and businesses."
+    />
+    <title>NovaSoft Solutions | Digital Product Development</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header" id="top">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="NovaSoft Solutions home">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span>NovaSoft</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="primary-menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="primary-menu">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a class="button button-small button-primary" href="#contact">Start a Project</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Software engineering for ambitious teams</p>
+          <h1 id="hero-title">Transforming ideas into innovative digital solutions.</h1>
+          <p class="hero-copy">
+            NovaSoft Solutions designs, builds, and scales modern digital products
+            for startups and growing businesses with thoughtful strategy,
+            polished interfaces, and dependable engineering.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Get Started</a>
+            <a class="button button-secondary" href="#services">Explore Services</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Abstract digital product architecture illustration">
+          <div class="visual-grid" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <svg class="orbit-graphic" viewBox="0 0 520 520" role="img" aria-labelledby="orbit-title orbit-desc">
+            <title id="orbit-title">Connected technology platform graphic</title>
+            <desc id="orbit-desc">Abstract connected nodes representing software, cloud, AI, and integrations.</desc>
+            <defs>
+              <linearGradient id="nodeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#7c3aed" />
+                <stop offset="48%" stop-color="#0ea5e9" />
+                <stop offset="100%" stop-color="#14b8a6" />
+              </linearGradient>
+              <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="12" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+            <circle cx="260" cy="260" r="164" fill="none" stroke="#2f3c66" stroke-width="2" />
+            <circle cx="260" cy="260" r="108" fill="none" stroke="#33446f" stroke-width="2" stroke-dasharray="10 12" />
+            <path d="M154 214 L260 128 L370 218 L332 356 L190 358 Z" fill="none" stroke="#64748b" stroke-width="3" />
+            <path d="M260 128 L260 260 L190 358 M260 260 L370 218 M260 260 L332 356 M154 214 L260 260" fill="none" stroke="#475569" stroke-width="2" />
+            <circle cx="260" cy="260" r="54" fill="#0f1b35" stroke="url(#nodeGradient)" stroke-width="4" />
+            <circle cx="260" cy="260" r="22" fill="url(#nodeGradient)" filter="url(#softGlow)" />
+            <circle cx="260" cy="128" r="28" fill="url(#nodeGradient)" />
+            <circle cx="154" cy="214" r="24" fill="#17233f" stroke="#38bdf8" stroke-width="4" />
+            <circle cx="370" cy="218" r="24" fill="#17233f" stroke="#a78bfa" stroke-width="4" />
+            <circle cx="332" cy="356" r="24" fill="#17233f" stroke="#2dd4bf" stroke-width="4" />
+            <circle cx="190" cy="358" r="24" fill="#17233f" stroke="#f59e0b" stroke-width="4" />
+          </svg>
+        </div>
+      </section>
+
+      <!-- About Us -->
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">About us</p>
+          <h2 id="about-title">A product-minded development partner.</h2>
+          <p>
+            We combine strategy, design, and engineering to turn complex ideas
+            into reliable software that feels simple to use.
+          </p>
+        </div>
+        <div class="about-grid">
+          <article class="info-panel">
+            <h3>Who We Are</h3>
+            <p>
+              NovaSoft Solutions is a software development company focused on
+              building modern digital products for startups and businesses. Our
+              team creates scalable applications, connected platforms, and
+              practical technology roadmaps.
+            </p>
+          </article>
+          <article class="info-panel">
+            <h3>Mission</h3>
+            <p>
+              To help teams launch meaningful digital products through clear
+              collaboration, thoughtful UX, strong engineering, and measurable
+              business outcomes.
+            </p>
+          </article>
+          <article class="info-panel">
+            <h3>Vision</h3>
+            <p>
+              To become a trusted technology partner for organizations shaping
+              the next generation of web, mobile, cloud, and AI-powered
+              experiences.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="services section-shell" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2 id="services-title">End-to-end software services for every growth stage.</h2>
+        </div>
+        <div class="card-grid service-grid">
+          <article class="service-card">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 5h16v11H4zM8 20h8M10 16l-.8 4M14 16l.8 4" /></svg>
+            </span>
+            <h3>Web Development</h3>
+            <p>Fast, responsive websites and web apps built with maintainable architecture.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 2h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM11 18h2" /></svg>
+            </span>
+            <h3>Mobile Apps</h3>
+            <p>Intuitive iOS and Android experiences designed for real user workflows.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .5-8A6 6 0 0 0 6 8.5 4.8 4.8 0 0 0 7 18z" /></svg>
+            </span>
+            <h3>Cloud Solutions</h3>
+            <p>Secure, scalable infrastructure, deployments, and cloud-native systems.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M7.8 7.8 5.7 5.7M18.3 18.3l-2.1-2.1M16.2 7.8l2.1-2.1M5.7 18.3l2.1-2.1M9 9h6v6H9z" /></svg>
+            </span>
+            <h3>Artificial Intelligence</h3>
+            <p>AI features, automation, and data-driven tools that improve decisions.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 12h8M9 7H7a5 5 0 0 0 0 10h2M15 7h2a5 5 0 0 1 0 10h-2" /></svg>
+            </span>
+            <h3>API Integrations</h3>
+            <p>Reliable integrations that connect products, payments, CRMs, and data sources.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16M8 16v-5M12 16V8M16 16v-8M20 16v-3" /></svg>
+            </span>
+            <h3>IT Consulting</h3>
+            <p>Technical planning, audits, and delivery guidance for smarter investments.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Why Choose Us -->
+      <section class="why-us section-shell" id="why-us" aria-labelledby="why-title">
+        <div class="section-heading">
+          <p class="eyebrow">Why choose us</p>
+          <h2 id="why-title">A practical process built around trust and velocity.</h2>
+        </div>
+        <div class="advantages">
+          <article>
+            <span class="check-icon" aria-hidden="true">✓</span>
+            <h3>Experienced Team</h3>
+            <p>Senior designers, engineers, and strategists aligned around product outcomes.</p>
+          </article>
+          <article>
+            <span class="check-icon" aria-hidden="true">✓</span>
+            <h3>Agile Development</h3>
+            <p>Transparent sprints, frequent demos, and feedback loops that reduce risk.</p>
+          </article>
+          <article>
+            <span class="check-icon" aria-hidden="true">✓</span>
+            <h3>Modern Technologies</h3>
+            <p>Clean stacks, scalable patterns, and tools selected for long-term value.</p>
+          </article>
+          <article>
+            <span class="check-icon" aria-hidden="true">✓</span>
+            <h3>Continuous Support</h3>
+            <p>Launch support, monitoring, improvements, and technical partnership over time.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Statistics Section -->
+      <section class="stats-section" aria-label="Company statistics">
+        <div class="section-shell stats-grid">
+          <article class="stat-card">
+            <strong data-count="150">0</strong><span>+</span>
+            <p>Projects Delivered</p>
+          </article>
+          <article class="stat-card">
+            <strong data-count="98">0</strong><span>%</span>
+            <p>Client Satisfaction</p>
+          </article>
+          <article class="stat-card">
+            <strong data-count="50">0</strong><span>+</span>
+            <p>Business Partners</p>
+          </article>
+          <article class="stat-card">
+            <strong data-count="8">0</strong><span>+</span>
+            <p>Years of Experience</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="testimonials section-shell" id="testimonials" aria-labelledby="testimonials-title">
+        <div class="section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2 id="testimonials-title">Trusted by teams building what comes next.</h2>
+        </div>
+        <div class="card-grid testimonial-grid">
+          <article class="testimonial-card">
+            <div class="client">
+              <span class="avatar" aria-hidden="true">MR</span>
+              <div>
+                <h3>Maya Reynolds</h3>
+                <p>Co-founder, BrightLedger</p>
+              </div>
+            </div>
+            <p class="review">
+              "NovaSoft turned our rough product concept into a secure, elegant
+              platform. Their team kept the work clear, focused, and impressively fast."
+            </p>
+          </article>
+          <article class="testimonial-card">
+            <div class="client">
+              <span class="avatar avatar-teal" aria-hidden="true">DK</span>
+              <div>
+                <h3>Daniel Kim</h3>
+                <p>COO, CloudNest</p>
+              </div>
+            </div>
+            <p class="review">
+              "They understood our operational needs quickly and built integrations
+              that saved our team hours every week."
+            </p>
+          </article>
+          <article class="testimonial-card">
+            <div class="client">
+              <span class="avatar avatar-gold" aria-hidden="true">AS</span>
+              <div>
+                <h3>Amara Singh</h3>
+                <p>Product Lead, PulseCart</p>
+              </div>
+            </div>
+            <p class="review">
+              "The final mobile app felt polished from day one. NovaSoft balanced
+              UX detail with engineering discipline throughout the project."
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Tell us what you want to build.</h2>
+          <p>
+            Share a few details and our team will respond with next steps,
+            practical recommendations, and a clear path toward launch.
+          </p>
+          <ul class="contact-points">
+            <li>Product discovery and technical planning</li>
+            <li>Transparent timelines and delivery milestones</li>
+            <li>Scalable support after launch</li>
+          </ul>
+        </div>
+        <form class="contact-form" aria-label="Project inquiry form">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="form-field">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" autocomplete="organization" />
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="button button-primary form-button" type="submit">Send Message</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="section-shell footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#top" aria-label="NovaSoft Solutions home">
+            <span class="brand-mark" aria-hidden="true">N</span>
+            <span>NovaSoft</span>
+          </a>
+          <p>
+            NovaSoft Solutions builds modern digital products for startups and
+            businesses ready to move with clarity and confidence.
+          </p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <h2>Company</h2>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Connect</h2>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/company/novasoft-solutions" aria-label="NovaSoft Solutions on LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.8V19h-3V8.8h3zM5 4a1.7 1.7 0 1 1 0 3.4A1.7 1.7 0 0 1 5 4zM20.5 13.2V19h-3v-5.3c0-1.4-.5-2.4-1.8-2.4-1 0-1.5.7-1.8 1.3-.1.2-.1.5-.1.8V19h-3V8.8h2.9v1.4c.4-.7 1.2-1.7 3-1.7 2.2 0 3.8 1.5 3.8 4.7z" /></svg>
+            </a>
+            <a href="https://x.com/novasoftsol" aria-label="NovaSoft Solutions on X">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.2 10.3 21 3h-2.4l-5.5 5.9L8.7 3H3l7.3 9.8L3 21h2.4l6-6.5L16.2 21H22l-7.8-10.7zM6.7 4.8h1.1l10.6 14.4h-1.1L6.7 4.8z" /></svg>
+            </a>
+            <a href="https://github.com/novasoft-solutions" aria-label="NovaSoft Solutions on GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.9c-2.9.6-3.5-1.2-3.5-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.7-1.3-2.3-.3-4.7-1.2-4.7-5A3.9 3.9 0 0 1 6.6 8.6c-.1-.3-.5-1.3.1-2.8 0 0 .9-.3 2.9 1.1a9.8 9.8 0 0 1 5.2 0c2-1.4 2.9-1.1 2.9-1.1.6 1.5.2 2.5.1 2.8a3.9 3.9 0 0 1 1.1 2.8c0 3.9-2.4 4.7-4.7 5 .4.3.7 1 .7 2V21c0 .3.2.6.7.5A10 10 0 0 0 12 2z" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 NovaSoft Solutions. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
