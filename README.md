@@ -251,4 +251,4 @@ Produce the complete implementation without requiring additional prompts.
 ![Captura Claude](PFO2_Front_end/agente_claude/captura.PNG)
 
 ## Deploy
-(https://pfo-2-front-end-theta.vercel.app/)
+https://pfo-2-front-end-theta.vercel.app/
